@@ -1,13 +1,14 @@
+
+import Feed from './components/Feed';
 import './App.css';
-import Membro from './components/Membro/index'
 
 function App() {
 
   return (
     <div>
-      <Membro />
+      <Feed></Feed>
     </div>
   );
-}
 
+}
 export default App;
